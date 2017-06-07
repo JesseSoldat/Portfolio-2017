@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+	contactType: string = '';
+
+  contact(contact: string) {
+  	this.contactType = contact;
+  }
+
+  closeContact(event) {
+  	this.contactType = '';
+  }
 }

@@ -5,16 +5,20 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-
+//Third Party
+import { ClipboardModule } from 'ngx-clipboard';
+import { ClipboardComponent } from './components/clipboard/clipboard.component';
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    ClipboardComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    ClipboardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

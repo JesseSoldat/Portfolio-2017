@@ -1,3 +1,11 @@
+.navbar-default.navbar-fixed-top {
+	margin-bottom: 300px;
+}
 .margin-right {
 	margin-right: 3%;
 }
+
+#rightLinks, #leftLinks  {
+  font-size: 1.5em;
+}
+

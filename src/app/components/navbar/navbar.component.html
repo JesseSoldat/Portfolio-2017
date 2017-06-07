@@ -1,4 +1,4 @@
- <nav class="navbar navbar-default navbar-fixed-top">
+ <nav class="navbar navbar-default navbar-fixed-top"> 
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -19,17 +19,16 @@
         <li><a href="https://www.linkedin.com/in/jesse-soldat-126544110" target="_blank">
       		<i class="fa fa-linkedin fa-2x"></i>
         </a></li>
-        <li><a href="#">
+        <li><a href="#" (click)="onContact('email')">
         	<i class="fa fa-envelope fa-2x"></i>
         </a></li>
-        <li><a href="#">
+        <li><a href="#" (click)="onContact('phone')">
         	<i class="fa fa-phone fa-2x"></i>
         </a></li>
       </ul>
     	<ul class="nav navbar-nav">
     	
-
-    		<li class="dropdown hidden-sm hidden-md hidden-lg">
+    		<li class="dropdown hidden-sm hidden-md hidden-lg" id="leftLinks">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Social <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="https://github.com/JesseSoldat"
@@ -40,10 +39,10 @@
         				target="_blank">
         				<i class="fa fa-linkedin fa-1x margin-right"></i>LinkedIn
         		</a></li>
-        		<li><a href="#">	
+        		<li><a href="#" (click)="onContact('email')">	
         				<i class="fa fa-envelope fa-1x margin-right"></i>Email
         		</a></li>
-        		<li><a href="#">
+        		<li><a href="#" (click)="onContact('phone')">
         				<i class="fa fa-phone fa-1x margin-right"></i>Phone
         		</a></li>
             
@@ -56,7 +55,7 @@
        </ul>
 
 
-      <ul class="nav navbar-nav navbar-right">
+      <ul class="nav navbar-nav navbar-right" id="rightLinks">
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Work</a></li>
@@ -65,3 +64,33 @@
     </div><!--/.nav-collapse -->
   </div>
 </nav>
+
+
+
+
+
+
+<!-- Email Modal -->
+<div id="email-modal" class="modal fade" tabindex="-1" role="dialog">
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <h4 class="modal-title">Email</h4>
+    </div>
+    <div class="modal-body">
+      <a href="mailto:jsoldat@hotmail.com"
+      id="email" value="jsoldat@hotmail.com"
+      >jsoldat@hotmail.com</a>
+
+     
+    <div class="modal-footer">
+      <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+     <!--  <button 
+      type="button" class="btn btn-primary"
+      alt="Copy to clipboard">Copy</button> -->
+    </div>
+  </div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
