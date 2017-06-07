@@ -5,9 +5,12 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { ClipboardComponent } from './components/clipboard/clipboard.component';
+
 //Third Party
 import { ClipboardModule } from 'ngx-clipboard';
-import { ClipboardComponent } from './components/clipboard/clipboard.component';
+import {NgsRevealModule} from 'ng-scrollreveal';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +21,8 @@ import { ClipboardComponent } from './components/clipboard/clipboard.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    ClipboardModule
+    ClipboardModule,
+    NgsRevealModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

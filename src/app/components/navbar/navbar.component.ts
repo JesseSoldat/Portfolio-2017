@@ -20,6 +20,7 @@ export class NavbarComponent implements OnInit {
          navMain.collapse('hide');
      });
    });
+  
 
   }
 
