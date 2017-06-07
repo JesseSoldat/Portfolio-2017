@@ -1,14 +1,16 @@
-<div class="row" id="clipboard" ngsReveal>
-	<div class="col-xs-12 col-sm-6 col-sm-offset-1">
-	  <div class="input-group">
-	    <input type="text" class="form-control" [(ngModel)]="type">
-	    <span class="input-group-btn">
-	    	<button (click)="closeClipboard()"
-	    	class="btn btn-danger">Close</button>
-	      <button 
-	      class="btn btn-default" [class.btn-success]= "isCopied" type="button" ngxClipboard [cbContent]="type" (cbOnSuccess)="isCopied = true">Copy</button>
-	    </span>
-	  </div>
+<div class="container" id="clipboardContainer">
+	<div class="row" id="clipboard" ngsReveal>
+		<div class="col-xs-12">
+		  <div class="input-group">
+		    <input type="text" class="form-control" [(ngModel)]="type">
+		    <span class="input-group-btn">
+		    	<button (click)="closeClipboard()"
+		    	class="btn btn-danger">Close</button>
+		      <button 
+		      class="btn btn-default" [class.btn-success]= "isCopied" type="button" ngxClipboard [cbContent]="type" (cbOnSuccess)="isCopied = true">Copy</button>
+		    </span>
+		  </div>
+		</div>
 	</div>
 </div>
 
