@@ -1,13 +1,12 @@
 <div class="container" id="skillsContainer" [ngsReveal]="{ reset: true, duration: 1000, origin: 'left', distance: '200px'}">
-  <div class="col-xs-12">
-    <h2 id="skillsTitle">Skills</h2>
-    <img id="skillsImg" src="../../assets/work.png" alt="">
-    <hr>
+  <div class="col-xs-8 col-xs-offset-2 col-sm-12 col-sm-offset-0">
+      <h2 id="skillsTitle">Skills</h2>
+      <img id="skillsImg" src="../../assets/work.png">
+    <hr class="hidden-xs">
   </div>
   
   <div class="row">
-
-    <div class="col-xs-4">
+    <div class="col-sm-4 hidden-xs">
       <ul>
         <li>HTML/SASS</li>
         <li>Bootstrap</li>
@@ -16,8 +15,7 @@
         <li>Lodash</li>
       </ul>
     </div>
-
-    <div class="col-xs-4">
+    <div class="col-sm-4 hidden-xs">
         <ul>
         <li>React</li>
         <li>React Native</li>
@@ -26,17 +24,33 @@
         <li>Ionic</li>
       </ul>
     </div> 
-
-    <div class="col-xs-4">
+    <div class="col-sm-4 hidden-xs">
        <ul>
         <li>Firebase</li>
         <li>Mongo</li>
         <li>Gulp</li>
         <li>Webpack</li>
-        <li>Git/Github</li>
+        <li>Git</li>
       </ul>
     </div> 
 
+    <ul class="list-group col-xs-12  hidden-sm hidden-md hidden-lg">
+      <li class="list-group-item text-center">HTML/SASS</li>
+      <li class="list-group-item text-center">Bootstrap</li>
+      <li class="list-group-item text-center">Responsive Design</li>
+      <li class="list-group-item text-center">jQuery</li>
+      <li class="list-group-item text-center">Lodash</li>
+      <li class="list-group-item text-center">React</li>
+      <li class="list-group-item text-center">React Native</li>
+      <li class="list-group-item text-center">Angular</li>
+      <li class="list-group-item text-center">Node/Express</li>
+      <li class="list-group-item text-center">Ionic</li>
+      <li class="list-group-item text-center">Firebase</li>
+      <li class="list-group-item text-center">Mongo</li>
+      <li class="list-group-item text-center">Gulp</li>
+      <li class="list-group-item text-center">Webpack</li>
+      <li class="list-group-item text-center">Git</li>
+    </ul>
   </div> 
 </div>
 

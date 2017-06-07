@@ -1,6 +1,10 @@
 #skillsContainer {
 	min-height: 400px;
 }
+#skillsTitleContainer {
+	display: block;
+	margin: 0 auto;
+}
 #skillsTitle{
 	display: inline-block;
 	margin-right: 3%;
