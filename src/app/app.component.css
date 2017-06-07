@@ -1,5 +1,15 @@
+#AppWrapper {
+	position: relative;
+}
 #spacer {
 	height: 100px;
+}
+#bottomSpacerMdLg {
+	height: 400px;
+}
+#bottomSpacerXsSm {
+	height: 600px;
+
 }
  button { font-size:1.8em; }
         
@@ -12,4 +22,15 @@
   text-align:center;
   padding:20px;
   font-size:1.5em;
+}
+
+#pdfIcon {
+	margin-right: 20px;
+}
+
+#footer {
+	padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 50px;
+  border-top: 1px solid #E4E4E4;
 }

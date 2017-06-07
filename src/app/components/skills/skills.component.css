@@ -1,0 +1,20 @@
+#skillsContainer {
+	min-height: 400px;
+}
+#skillsTitle{
+	display: inline-block;
+	margin-right: 3%;
+	vertical-align: middle;
+}
+#skillsImg {
+	display: inline-block;
+	width: 30px;
+	padding-top: 10px;
+}
+
+
+li {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+}

@@ -5,8 +5,8 @@ import { routerTransition } from '../../animations/slide-in.animation';
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css'],
-  animations: [routerTransition()],
- 	host: { '[@routerTransition]': '' }
+  // animations: [routerTransition()],
+ 	// host: { '[@routerTransition]': '' }
 })
 export class HomeComponent implements OnInit {
 

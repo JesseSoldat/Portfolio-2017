@@ -6,8 +6,8 @@ import { routerTransition } from '../../animations/slide-in.animation';
   selector: 'app-work',
   templateUrl: './work.component.html',
   styleUrls: ['./work.component.css'],
-  animations: [routerTransition()],
- 	host: { '[@routerTransition]': '' }
+  // animations: [routerTransition()],
+ 	// host: { '[@routerTransition]': '' }
 })
 export class WorkComponent implements OnInit {
 

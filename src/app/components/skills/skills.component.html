@@ -1,30 +1,42 @@
-<div class="container">
-  <h2>Skills</h2>
-  <hr>
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  </p>
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  </p>
+<div class="container" id="skillsContainer" [ngsReveal]="{ reset: true, duration: 1000, origin: 'left', distance: '200px'}">
+  <div class="col-xs-12">
+    <h2 id="skillsTitle">Skills</h2>
+    <img id="skillsImg" src="../../assets/work.png" alt="">
+    <hr>
+  </div>
+  
+  <div class="row">
 
+    <div class="col-xs-4">
+      <ul>
+        <li>HTML/SASS</li>
+        <li>Bootstrap</li>
+        <li>Responsive Design</li>
+        <li>jQuery</li>
+        <li>Lodash</li>
+      </ul>
+    </div>
 
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  </p>
+    <div class="col-xs-4">
+        <ul>
+        <li>React</li>
+        <li>React Native</li>
+        <li>Angular</li>
+        <li>Node/Express</li>
+        <li>Ionic</li>
+      </ul>
+    </div> 
+
+    <div class="col-xs-4">
+       <ul>
+        <li>Firebase</li>
+        <li>Mongo</li>
+        <li>Gulp</li>
+        <li>Webpack</li>
+        <li>Git/Github</li>
+      </ul>
+    </div> 
+
+  </div> 
 </div>
+

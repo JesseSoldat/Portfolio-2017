@@ -6,8 +6,8 @@ import { routerTransition } from '../../animations/slide-in.animation';
   selector: 'app-skills',
   templateUrl: './skills.component.html',
   styleUrls: ['./skills.component.css'],
-  animations: [routerTransition()],
- 	host: { '[@routerTransition]': '' }
+  // animations: [routerTransition()],
+ 	// host: { '[@routerTransition]': '' }
 })
 export class SkillsComponent implements OnInit {
 

@@ -16,6 +16,7 @@ import { ClipboardComponent } from './components/clipboard/clipboard.component';
 //Third Party
 import { ClipboardModule } from 'ngx-clipboard';
 import {NgsRevealModule} from 'ng-scrollreveal';
+import { ResumeComponent } from './components/resume/resume.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import {NgsRevealModule} from 'ng-scrollreveal';
     // SkillsComponent,
     // WorkComponent,
     // AboutComponent,
-    routedComponents
+    routedComponents,
+    ResumeComponent
   ],
   imports: [
     BrowserModule,
