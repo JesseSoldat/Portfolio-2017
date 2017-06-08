@@ -12,6 +12,8 @@ import { ClipboardComponent } from './components/clipboard/clipboard.component';
 // import { AboutComponent } from './components/about/about.component';
 // import { WorkComponent } from './components/work/work.component';
 // import { SkillsComponent } from './components/skills/skills.component';
+// import { WorkDetailsComponent } from './components/work/work-details/work-details.component';
+
 
 //Third Party
 import { ClipboardModule } from 'ngx-clipboard';
@@ -27,7 +29,8 @@ import { ResumeComponent } from './components/resume/resume.component';
     // WorkComponent,
     // AboutComponent,
     routedComponents,
-    ResumeComponent
+    ResumeComponent,
+    // WorkDetailsComponent
   ],
   imports: [
     BrowserModule,

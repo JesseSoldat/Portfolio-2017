@@ -1,6 +1,23 @@
+#aboutImgWrapper {
+   background: url(../../../assets/iowa.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 90vh;
+}
+
 #aboutContainer {
 	min-height: 400px;
 }
+
+#aboutContent {
+	background: rgba(255, 255, 255, 0.8);
+	padding: 3% 3%;
+	margin-top: 15%;
+
+}
+
 
 .tab-pane {
 	margin-top: 50px;

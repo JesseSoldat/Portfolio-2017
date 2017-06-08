@@ -1,5 +1,15 @@
-#skillsContainer {
-	min-height: 400px;
+#skillsImgWrapper {
+	 background: url(../../../assets/skills.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	height: 90vh;
+}
+#skillsContent {
+	margin-top: 10%;
+	background: white;
+	padding: 5%;
 }
 #skillsTitleContainer {
 	display: block;
@@ -20,5 +30,5 @@
 li {
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
-    line-height: 1.7;
+    line-height: 2;
 }

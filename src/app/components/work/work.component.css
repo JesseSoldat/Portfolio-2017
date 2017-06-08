@@ -1,3 +1,15 @@
+#workImgWrapper {
+   background: url(../../../assets/code.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 90vh;
+}
 #workContainer {
 	min-height: 400px;
+}
+
+#projectsList {
+	margin-top: 10%;
 }
