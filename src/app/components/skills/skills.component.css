@@ -9,7 +9,7 @@
 #skillsContent {
 	margin-top: 10%;
 	background: white;
-	padding: 5%;
+	padding: 3%;
 }
 #skillsTitleContainer {
 	display: block;
@@ -25,7 +25,10 @@
 	width: 30px;
 	padding-top: 10px;
 }
-
+#lgList {
+	display:table; 
+	margin:0 auto;
+}
 
 li {
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;

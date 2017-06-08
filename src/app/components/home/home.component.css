@@ -1,3 +1,16 @@
+#homeImgWrapper {
+	 background: url(../../../assets/space.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	height: 90vh;
+}
+
 #homeContainer {
 	height: 90vh;
+}
+
+#imgContainer {
+	margin-top: 10%;
 }

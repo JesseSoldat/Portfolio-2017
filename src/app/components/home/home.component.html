@@ -1,12 +1,18 @@
-<div class="container hidden-xs" id="homeContainer"  [ngsReveal]="{ reset: true, duration: 1000, origin: 'left', distance: '300px'}">
-  <div class="col-sm-12">
-    <img class="img-responsive" src="../../assets/jesseProfile.png">
-  </div>
-</div>
+<!-- sm md lg -->
+<div id="homeImgWrapper">
+	<div class="container hidden-xs" id="homeContainer"  [ngsReveal]="{ reset: true, duration: 1000, origin: 'left', distance: '300px'}">
 
-<div class="hidden-sm hidden-md hidden-lg" [ngsReveal]="{ duration: 1000, origin: 'top', distance: '200px'}">
-  <div class="col-xs-12">
-    <img class="img-responsive" src="../../assets/jessePic.png">
-    <img class="img-responsive" src="../../assets/jesseCode.png">
-  </div>
+	  <div class="col-sm-12" id="imgContainer">
+	    <img class="img-responsive" src="../../assets/jesseProfile.png">
+	  </div>
+	</div>
+
+	<!-- xs -->
+	<div class="hidden-sm hidden-md hidden-lg" [ngsReveal]="{ duration: 1000, origin: 'top', distance: '200px'}">
+	  <div class="col-xs-12">
+	    <img class="img-responsive" src="../../assets/jessePic.png">
+	    <img class="img-responsive" src="../../assets/jesseCode.png">
+	  </div>
+	</div>
+
 </div>
