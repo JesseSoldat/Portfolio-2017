@@ -1,16 +1,18 @@
-<app-navbar (contact)="contact($event)">
-</app-navbar>
+<div id="appWrapper">
+	<app-navbar (contact)="contact($event)">
+	</app-navbar>
 
-<app-clipboard *ngIf="contactType && contactType.length > 0" 
-(closeContact)="closeContact($event)"
-[contactType]="contactType"
-></app-clipboard>
+	<app-clipboard *ngIf="contactType && contactType.length > 0" 
+	(closeContact)="closeContact($event)"
+	[contactType]="contactType"
+	></app-clipboard>
 
-<router-outlet>
-</router-outlet>
+	<router-outlet>
+	</router-outlet>
 
-<footer id="footer">
-  <app-resume></app-resume>
-</footer>
+	<footer id="footer">
+	  <app-resume></app-resume>
+	</footer>
+</div>
 
 

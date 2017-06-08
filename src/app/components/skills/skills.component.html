@@ -1,13 +1,16 @@
-<div id="skillsImgWrapper">
+<div id="skillsImgWrapper" class="hidden-xs">
 
   <div class="container" [ngsReveal]="{ reset: true, duration: 1000, origin: 'left', distance: '300px'}">
-  
-    <div id="skillsContent">
-
-      <div class="col-xs-8 col-xs-offset-2 col-sm-12 col-sm-offset-0" >
-          <h2 id="skillsTitle">Skills</h2>
-          <img id="skillsImg" src="../../assets/work.png">
-        <hr class="hidden-xs">
+      
+    <div id="spacer" class="hidden-xs hidden-md hidden-lg"></div>
+    
+    <div id="skillsContent" class="hidden-xs">
+      <div class="row">
+        <div class="col-xs-12  col-sm-12">
+            <h2 id="skillsTitle">Skills</h2>
+            <img id="skillsImg" src="../../assets/work.png">
+          <hr class="hidden-xs">
+        </div>
       </div>
       
       <div class="row">
@@ -38,27 +41,42 @@
             <li>Webpack</li>
             <li>Git</li>
           </ul>
-        </div> 
-
-        <ul class="list-group col-xs-12  hidden-sm hidden-md hidden-lg">
-          <li class="list-group-item text-center">HTML/SASS</li>
-          <li class="list-group-item text-center">Bootstrap</li>
-          <li class="list-group-item text-center">Responsive Design</li>
-          <li class="list-group-item text-center">jQuery</li>
-          <li class="list-group-item text-center">Lodash</li>
-          <li class="list-group-item text-center">React</li>
-          <li class="list-group-item text-center">React Native</li>
-          <li class="list-group-item text-center">Angular</li>
-          <li class="list-group-item text-center">Node/Express</li>
-          <li class="list-group-item text-center">Ionic</li>
-          <li class="list-group-item text-center">Firebase</li>
-          <li class="list-group-item text-center">Mongo</li>
-          <li class="list-group-item text-center">Gulp</li>
-          <li class="list-group-item text-center">Webpack</li>
-          <li class="list-group-item text-center">Git</li>
-        </ul>
+        </div>  
       </div> 
     </div>
   </div>
 </div>
+
+<div id="skillsContent" class="hidden-sm hidden-md hidden-lg">  
+
+  <div class="row" class="hidden-sm hidden-md hidden-lg">
+    <ul class="list-group col-xs-12" id="xsList">
+      <li class="list-group-item text-center"><strong>SKILLS</strong><img id="skillsImg" src="../../assets/work.png"></li>
+      <li class="list-group-item text-center">HTML/SASS</li>
+      <li class="list-group-item text-center">Bootstrap</li>
+      <li class="list-group-item text-center">Responsive Design</li>
+      <li class="list-group-item text-center">jQuery</li>
+      <li class="list-group-item text-center">Lodash</li>
+      <li class="list-group-item text-center">React</li>
+      <li class="list-group-item text-center">React Native</li>
+      <li class="list-group-item text-center">Angular</li>
+      <li class="list-group-item text-center">Node/Express</li>
+      <li class="list-group-item text-center">Ionic</li>
+      <li class="list-group-item text-center">Firebase</li>
+      <li class="list-group-item text-center">Mongo</li>
+      <li class="list-group-item text-center">Gulp</li>
+      <li class="list-group-item text-center">Webpack</li>
+      <li class="list-group-item text-center">Git</li>
+    </ul>
+  </div>
+</div>
+  
+
+
+
+
+
+
+
+      
 

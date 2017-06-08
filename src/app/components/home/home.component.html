@@ -1,5 +1,6 @@
 <!-- sm md lg -->
 <div id="homeImgWrapper">
+
 	<div class="container hidden-xs" id="homeContainer"  [ngsReveal]="{ reset: true, duration: 1000, origin: 'left', distance: '300px'}">
 
 	  <div class="col-sm-12" id="imgContainer">
@@ -8,10 +9,18 @@
 	</div>
 
 	<!-- xs -->
-	<div class="hidden-sm hidden-md hidden-lg" [ngsReveal]="{ duration: 1000, origin: 'top', distance: '200px'}">
-	  <div class="col-xs-12">
-	    <img class="img-responsive" src="../../assets/jessePic.png">
-	    <img class="img-responsive" src="../../assets/jesseCode.png">
+	<div class="hidden-sm hidden-md hidden-lg" id="homeContainerXs" [ngsReveal]="{reset: true, duration: 1000, origin: 'top', distance: '300px'}">
+	  <div class="col-xs-12" id="imgContainerXs">
+	  	<ng-template [ngIf]="toggleImg === 'jessePic'">
+	  		 <img  id="jessePic" class="img-responsive" src="../../assets/jessePic.png">
+	  		 <button class="btn btn-primary" id="jessePicBtn"
+	    	(click)="onToggleImg()">{{toggleMsg}}</button>
+	  	</ng-template>
+	  	<ng-template [ngIf]="toggleImg === 'jesseCode'">
+	  		<img  id="jesseCode" class="img-responsive" src="../../assets/jesseCode.png">
+	    	<button class="btn btn-primary"
+	    	(click)="onToggleImg()">{{toggleMsg}}</button>
+	  	</ng-template>
 	  </div>
 	</div>
 

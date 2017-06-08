@@ -1,5 +1,6 @@
 .navbar-default.navbar-fixed-top {
   background: #CAFCFB;
+  box-shadow: 0 3px 6px #666666;
 }
 .margin-right {
 	margin-right: 3%;

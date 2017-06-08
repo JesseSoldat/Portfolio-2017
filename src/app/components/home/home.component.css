@@ -10,7 +10,30 @@
 #homeContainer {
 	height: 90vh;
 }
-
 #imgContainer {
-	margin-top: 10%;
+	margin-top: 15%;
+}
+/*xs*/
+#homeContainerXs {
+	height: 90vh;
+}
+
+#imgContainerXs {
+	margin-top: 25%;
+	/*position: absolute;*/
+}
+#jessePic  {
+	width: 250px;
+	display: block;
+	margin: 0 auto;	
+}
+#jessePicBtn {
+	display: block;
+	margin: 0 auto;	
+	width: 250px;
+
+}
+
+#jesseCode {
+	width: 100%;
 }
