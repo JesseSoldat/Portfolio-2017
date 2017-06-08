@@ -1,11 +1,29 @@
 #clipboardContainer {
 	position: absolute;
+	width: 30%;
 	top: 10%;
-	left: 15%;
+	left: 5%;
 	z-index: 1000;
-	padding: 3%;
+	padding: 2%;
 	border: 1px solid #666666;
 	border-radius: 1%;
 	box-shadow: 10px 10px 15px #666666;
-	background: white;
+	background: rgba(255,255,255, 1);
+}
+
+@media only screen and (max-width: 1400px) {
+	#clipboardContainer { 
+  	width: 40%;
+  	padding: 3%;
+  }
+}
+@media only screen and (max-width: 950px) {
+  #clipboardContainer { 
+  	width: 80%;
+  }
+}
+@media only screen and (max-width: 550px) {
+  #clipboardContainer { 
+  	width: 100%;
+  }
 }
