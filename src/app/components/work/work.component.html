@@ -1,80 +1,34 @@
 <div id="workImgWrapper">
   <div class="container" [ngsReveal]="{ reset: true, duration: 1000, origin: 'left', distance: '300px'}">
 
-    <div class="row" id="workContent">
+    <div class="row" id="workContainer">
       
-      <div id="workContainer">
-        <div class="col-sm-3 hidden-xs" id="projectsList">
-          <div class="list-group">
-            <a [routerLink]="'five-words'"
+      <div class="col-xs-12 col-sm-3" id="projectsList">
+        <div class="list-group">
+          <a [routerLink]="'five-words'"
 
-            routerLinkActive="active"
-            class="list-group-item text-center">Five Words</a>
+          routerLinkActive="active"
+          class="list-group-item text-center">Five Words</a>
 
-            <a [routerLink]="'around-world'" 
-            routerLinkActive="active"
-            class="list-group-item text-center">Around The World</a>
+          <a [routerLink]="'around-world'" 
+          routerLinkActive="active"
+          class="list-group-item text-center">Around The World</a>
 
-            <a [routerLink]="'movie-buddy'" 
-            routerLinkActive="active"
-            class="list-group-item text-center">Movie Buddy</a>
-          </div>
+          <a [routerLink]="'movie-buddy'" 
+          routerLinkActive="active"
+          class="list-group-item text-center">Movie Buddy</a>
         </div>
+
       </div>
 
-      <!-- xs -->
-      <div  class="container-fluid hidden-sm hidden-md hidden-lg">
-        <div class="row" id="workContainerXs">
-          <div class="col-xs-12">
-            <div class="list-group">
-              <a [routerLink]="'five-words'"
-              routerLinkActive="active"
-              class="list-group-item text-center">Five Words</a>
-
-              <a [routerLink]="'around-world'" 
-              routerLinkActive="active"
-              class="list-group-item text-center">Around The World</a>
-
-              <a [routerLink]="'movie-buddy'" 
-              routerLinkActive="active"
-              class="list-group-item text-center">Movie Buddy</a>
-           </div>
-          </div>
-        </div>   
-      </div>
-
-      <div class="col-xs-12 col-sm-8 col-sm-offset-1" id="projectContainer">
+      <div id="projectContainer" class="col-xs-12 col-sm-8 col-sm-offset-1">
         <router-outlet></router-outlet>
       </div>
-
     </div>
   </div>
 
-
 </div>
 
-<!-- <div  class="container-fluid hidden-sm hidden-md hidden-lg">
 
-  <div class="row" id="workContainerXs">
-    <div class="col-xs-12">
-      <div class="list-group">
-        <a [routerLink]="'five-words'"
-        routerLinkActive="active"
-        class="list-group-item text-center">Five Words</a>
 
-        <a [routerLink]="'around-world'" 
-        routerLinkActive="active"
-        class="list-group-item text-center">Around The World</a>
 
-        <a [routerLink]="'movie-buddy'" 
-        routerLinkActive="active"
-        class="list-group-item text-center">Movie Buddy</a>
-      </div>
-      <div class="col-xs-12">
-        <router-outlet></router-outlet>
-      </div>
-      <div id="spacer"></div>
-    </div>
-  </div>   
-
-</div> -->

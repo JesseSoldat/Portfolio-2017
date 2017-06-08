@@ -6,9 +6,6 @@
   background-size: cover;
   height: 100vh;
 }
-#aboutContainer {
-	/*min-height: 400px;*/
-}
 
 #aboutContent {
 	background: rgba(255, 255, 255, 0.8);
@@ -24,9 +21,10 @@ p, a {
     line-height: 1.7;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 450px) {
   #aboutImgWrapper {
      background: url(../../../assets/iowa.jpg) no-repeat center center fixed; 
+     background-repeat: repeat-y;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -45,5 +43,4 @@ p, a {
   margin-top: 20px;
   padding-bottom: 80px;
   }
-
 }

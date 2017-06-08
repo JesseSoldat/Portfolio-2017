@@ -6,25 +6,30 @@
   background-size: cover;
   height: 100vh;
 }
-#workContent {
-
+#workContainer {
+  margin-top: 10%;
 }
-
-
 #projectsList {
 	margin-top: 10%;
 }
-#projectContainer {
-	padding-bottom: 10%;
-}
 
-/*xs*/
-#workContainerXs {
-	margin-top: 25%;
-	margin-bottom: 25%;
-
-}
-
-#spacer {
-
+@media only screen and (max-width: 450px) {
+  #workImgWrapper {
+   background: url(../../../assets/code.jpg) no-repeat center center fixed; 
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+  }
+  #projectsList {
+    margin-top: 25%;
+  }
+  a {
+   font-size: 14px;
+  }
+  #workContainer {
+  min-height: 750px;
+  }
+  
 }
