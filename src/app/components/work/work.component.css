@@ -7,10 +7,25 @@
   height: 100vh;
 }
 #workContainer {
-  margin-top: 10%;
+  margin-top: 5%;
 }
 #projectsList {
-	margin-top: 10%;
+	margin-top: 2%;
+}
+
+a {
+  font-size: 2em;
+}
+@media only screen and (max-width: 1350px) {
+  a {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  a {
+    font-size: 1.1em;
+  }
 }
 
 @media only screen and (max-width: 450px) {
@@ -23,10 +38,10 @@
     height: 100%;
   }
   #projectsList {
-    margin-top: 25%;
+    margin-top: 20%;
   }
   a {
-   font-size: 14px;
+   font-size: 1.1em;
   }
   #workContainer {
   min-height: 750px;

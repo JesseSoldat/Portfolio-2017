@@ -1,13 +1,19 @@
 <div id="projectContainer">
-	<h4 id="projectTitle">{{project.title}}</h4>
-	<a href={{project.url}} target="_blank">View Live |</a>
-	<a href={{project.github}} target="_blank"> View Code</a>
-
-	<img id="projectImg" src="../../../assets/{{project.img}}">
-	<p>{{project.description}}
-	</p>
-	
-
+	<div class="row">
+		<div class="col-xs-12">
+			<h4 id="projectTitle">{{project.title}}</h4>
+			<a href={{project.url}} target="_blank">View Live |</a>
+			<a href={{project.github}} target="_blank"> View Code</a>
+			<hr>
+		</div>
+		
+		<div class="col-sm-5">
+			<p>{{project.description}}</p>
+		</div>
+		<div class="col-sm-7">
+			<img id="projectImg" src="../../../assets/{{project.img}}">
+		</div>
+	</div>
 </div>
 
 

@@ -1,8 +1,8 @@
 #projectContainer {
-	background: white;
+	background: #CAFCFB;
 	padding: 2% 3%;
 	border-radius: 1%;
-	box-shadow: 10px 10px 15px solid #666666;
+	box-shadow: 3px 3px 3px black;
 	margin-bottom: 130px;
 }
 
@@ -14,12 +14,39 @@
 #projectImg {
 	margin: 0;
 	padding: 0;
-	width: 100%;
+	width: 90%;
 	display: block;
 	margin: 0 auto;
-	box-shadow: 10px 10px 15px solid #666666;
+	box-shadow: 3px 3px 3px black;
 	margin-bottom: 30px;
+}
 
+h4 {
+	font-size: 2.2em;
+}
+a {
+	font-size: 1.3em;
+}
+p {
+	font-size: 1.5em;
+	line-height: 1.4em;
+}
 
+@media only screen and (max-width: 1000px) {
+
+	#projectTitle {
+		display: block;
+		margin-right: 0;
+	}
+	h4 {
+		font-size: 1.6em;
+	}
+	a {
+		font-size: 1.2em;
+	}
+	p {
+		font-size: 1.3em;
+		line-height: 1.4em;
+	}
 
 }
