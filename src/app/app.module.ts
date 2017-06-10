@@ -9,11 +9,6 @@ import { AppRoutingModule, routedComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ClipboardComponent } from './components/clipboard/clipboard.component';
-// import { AboutComponent } from './components/about/about.component';
-// import { WorkComponent } from './components/work/work.component';
-// import { SkillsComponent } from './components/skills/skills.component';
-// import { WorkDetailsComponent } from './components/work/work-details/work-details.component';
-
 
 //Third Party
 import { ClipboardModule } from 'ngx-clipboard';
@@ -25,12 +20,8 @@ import { ResumeComponent } from './components/resume/resume.component';
     AppComponent,
     NavbarComponent,
     ClipboardComponent,
-    // SkillsComponent,
-    // WorkComponent,
-    // AboutComponent,
     routedComponents,
     ResumeComponent,
-    // WorkDetailsComponent
   ],
   imports: [
     BrowserModule,
