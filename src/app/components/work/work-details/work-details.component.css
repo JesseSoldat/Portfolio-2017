@@ -4,7 +4,6 @@
 #projectContainer {
 	background: #CAFCFB;
 	padding: 2% 4%;
-	padding-bottom: 8%;
 	border-radius: 1%;
 	box-shadow: 3px 3px 3px black;
 	margin-bottom: 130px;
@@ -22,9 +21,13 @@
 	display: block;
 	margin: 0 auto;
 	box-shadow: 3px 3px 3px black;
-	margin-bottom: 30px;
+	/*margin-bottom: 30px;*/
 }
-
+hr	{
+	padding: 0;
+	margin: 0;
+	padding-bottom: 1%;
+}
 
 h4 {
 	font-size: 2.2em;
@@ -45,9 +48,8 @@ p {
 
 @media only screen and (max-width: 991px) {
 	#imgWrapper {
-		margin-top: 2%;
+		margin-bottom: 6%;
 	}
-
 	#projectTitle {
 		display: block;
 		margin-right: 0;
