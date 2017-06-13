@@ -20,8 +20,6 @@ const routes: Routes = [
     },
     { path: 'skills', component: SkillsComponent },
 
-
-    // otherwise redirect to home
     { path: '**', redirectTo: '' }
 ];
 

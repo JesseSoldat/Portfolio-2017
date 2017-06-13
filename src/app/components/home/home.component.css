@@ -6,12 +6,9 @@
   background-size: cover;
 	height: 90vh;
 }
-
-#homeContainer {
-	height: 90vh;
-}
-#imgContainer {
-	margin-top: 15%;
+#profileImg {
+	width: 100%;
+	margin: 160px auto 40px;
 }
 /*xs*/
 #homeContainerXs {
@@ -19,21 +16,56 @@
 }
 
 #imgContainerXs {
-	margin-top: 25%;
-	/*position: absolute;*/
+	margin-top: 50px;
 }
 #jessePic  {
-	width: 250px;
+	width: 300px;
 	display: block;
 	margin: 0 auto;	
 }
 #jessePicBtn {
 	display: block;
 	margin: 0 auto;	
-	width: 250px;
-
+	width: 300px;
 }
 
 #jesseCode {
 	width: 100%;
+}
+
+@media only screen and (max-width: 770px) {
+ #imgContainer {
+		margin-top: 150px;
+	}
+}
+@media only screen and (max-width: 550px) {
+	#jesseCode {
+		margin-top: 100px;
+	}
+	
+}
+@media only screen and (max-width: 420px) {
+	#jessePic  {
+		width: 270px;
+	}
+	#jessePicBtn {
+		width: 270px;
+	}
+}
+@media only screen and (max-width: 380px) {
+	#jessePic  {
+		width: 250px;
+	}
+	#jessePicBtn {
+		width: 250px;
+	}
+}
+@media only screen and (max-width: 350px) {
+	#jessePic  {
+		width: 200px;
+  }
+	#jessePicBtn {
+		width: 200px;
+	}
+	
 }
